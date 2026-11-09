@@ -20,7 +20,7 @@ A Python (Tkinter) app that calculates the final price after a discount.
 Price 20000, discount 25%, quantity 1 → Final Price: Rp. 15000.00
 
 ## Screenshot
-[GUI_Screenshot] (GUI_screenshot.png)
+[GUI_Screenshot] (GUI_Screenshot.png)
 
 ## Author
 Faadhilah Andini
