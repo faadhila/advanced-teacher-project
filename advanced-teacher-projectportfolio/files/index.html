@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faadhilah Andini | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="#home" class="logo">FA</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle dark mode">Dark</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="avatar"><img src="profile.jpeg" alt="Foto Faadhilah" /></div>
+        <h1>Hi, I'm Faadhilah Andini</h1>
+        <p class="tagline">Telecommunication Systems graduate | ICT Solutions | Aspiring IT Teacher</p>
+        <a href="#projects" class="btn">See My Projects</a>
+      </section>
+
+      <section id="about" class="reveal">
+        <h2>About Me</h2>
+        <p>
+          I hold a Bachelor of Telecommunication Systems from Universitas Pendidikan Indonesia (GPA 3.69). I currently work as a Sales Engineer in ICT solutions, and I have taught ICT (TIK) for grades X, XI, and XII. I enjoy explaining
+          technology in a practical, hands-on way.
+        </p>
+      </section>
+
+      <section id="skills" class="reveal">
+        <h2>Skills</h2>
+        <ul class="chips">
+          <li>Python</li>
+          <li>SQL</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+          <li>Linux</li>
+          <li>Networking</li>
+          <li>Technical Support</li>
+          <li>Public Speaking</li>
+          <li>Project Management</li>
+          <li>Collaboration</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="reveal">
+        <h2>Projects</h2>
+        <div class="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="code">Coding</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="cloud">Cloud</button>
+          <button class="filter" data-filter="network">Network</button>
+          <button class="filter" data-filter="research">Research</button>
+          <button class="filter" data-filter="teaching">Teaching</button>
+        </div>
+        <div class="cards">
+          <article class="card" data-category="code">
+            <h3>Discount Calculator</h3>
+            <p>A Python program that calculates the final price after a discount, with input validation and Rupiah formatting.</p>
+            <span class="tag">Python</span>
+          </article>
+          <article class="card" data-category="research">
+            <h3>MPEG-TS Transmission Thesis</h3>
+            <p>Analyzed how content complexity and resolution affect MPEG-TS delay, packet loss, and throughput using TSDuck and Wireshark.</p>
+            <span class="tag">TSDuck</span> <span class="tag">Wireshark</span>
+          </article>
+          <article class="card" data-category="teaching">
+            <h3>Hands-on ICT Classes</h3>
+            <p>Redesigned worksheet-based ICT lessons into practical sessions with direct practice and Q&amp;A for grades X to XII.</p>
+            <span class="tag">Teaching</span>
+          </article>
+          <article class="card" data-category="web">
+            <h3>MyawCafe Website (UMKM)</h3>
+            <p>A cat-themed cafe website with Home, About Us, Menu, Adopt Cat, and Contact pages, integrated with a database using Visual Studio Code and phpMyAdmin.</p>
+            <span class="tag">Web</span> <span class="tag">phpMyAdmin</span>
+          </article>
+
+          <article class="card" data-category="research">
+            <h3>Scientific Article: Floodlight vs ONOS</h3>
+            <p>Co-authored an article comparing Floodlight and ONOS controllers on a Spine Leaf topology using Mininet on Linux. Floodlight showed better delay and throughput, while ONOS showed higher network reliability.</p>
+            <span class="tag">SDN</span> <span class="tag">Mininet</span>
+          </article>
+
+          <article class="card" data-category="network">
+            <h3>Drive Test (2G, 3G, 4G)</h3>
+            <p>Ran mobility tests with G-Net Track Lite and stationary tests (download, upload, latency, call and SMS) with Speedtest Master Pro to measure signal quality.</p>
+            <span class="tag">Network</span>
+          </article>
+
+          <article class="card" data-category="cloud">
+            <h3>AWS Cloud Projects</h3>
+            <ul>
+              <li>Static website hosting on Amazon S3</li>
+              <li>Serverless architecture (IAM, Lambda, S3, DynamoDB, SNS)</li>
+              <li>VPC, Amazon RDS, and EC2 instances</li>
+              <li>Multi-tier infrastructure with CloudFormation</li>
+            </ul>
+            <span class="tag">AWS</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="reveal">
+        <h2>Contact</h2>
+        <p>Let's connect: <a href="mailto:faadhilah17andini@gmail.com">faadhilah17andini@gmail.com</a></p>
+        <p><a href="https://linkedin.com/in/faadhilah-andini/" target="_blank" rel="noopener">LinkedIn</a></p>
+      </section>
+    </main>
+
+    <footer><p>&copy; 2026 Faadhilah Andini</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
